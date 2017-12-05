@@ -3,7 +3,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import javax.inject.Inject;
+
 public class MainActivity extends AppCompatActivity {
+    @Inject
+    String example;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
